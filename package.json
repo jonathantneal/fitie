@@ -1,0 +1,48 @@
+{
+  "name": "fitie",
+  "version": "1.0.0",
+  "description": "An object-fit polyfill for Internet Explorer",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint . --ignore-path .eslintignore",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantneal/fitie.git"
+  },
+  "keywords": [
+    "css",
+    "styles",
+    "stylesheets",
+    "object-fit",
+    "objects",
+    "fits",
+    "old",
+    "internet",
+    "explorer",
+    "ies",
+    "polyfill",
+    "shim",
+    "shiv",
+    "contains",
+    "fills",
+    "covers",
+    "images",
+    "backgrounds"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/jonathantneal/fitie/issues"
+  },
+  "homepage": "https://github.com/jonathantneal/fitie#readme",
+  "devDependencies": {
+    "eslint": "^1.10.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}

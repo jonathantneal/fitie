@@ -1,0 +1,16 @@
+img, video {
+	background-color: #f5f5f5;
+	border: 10px solid #cccccc;
+}
+
+.contain {
+	object-fit: contain;
+}
+
+.cover {
+	object-fit: cover;
+}
+
+.fill {
+	object-fit: fill;
+}
