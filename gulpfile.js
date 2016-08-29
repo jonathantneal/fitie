@@ -5,7 +5,6 @@ var uglify = require('gulp-uglify');
 
 gulp.task('default', function () {
 	return gulp.src([
-		'lib/fitie.init.js',
 		'lib/fitie.js'
 	]).pipe(
 		source.init()
